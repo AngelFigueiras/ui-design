@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="login">
+        <div class="form-container-error">
+            <img src="/assets/logos/logo_yard_sale.svg" alt="logo" class="logo">
+
+            <form action="/" class="form-error">
+                <label for="email" class="label-error">Email addres</label>
+                <input type="text" id="email" placeholder="baltovich@gmail.com" class="input-error">
+
+                <label for="password" class="label-error">Password</label>
+                <input type="password" id="password" placeholder="********" class="input-error">
+            </form>
+
+            <p class="invalid">
+                <span>Invalid user ID and password combination</span>
+            </p>
+
+            <button class="button-primary button-confirm button-login">Log in</button>
+
+            <p class="bck-login">
+                <a href="/#">Forgot my password</a>
+            </p>
+
+            <button class="button-signup">Sign up</button>
+        </div>
+    </div>
+</body>
+
+
+</html>
